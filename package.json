@@ -1,0 +1,24 @@
+{
+  "name": "vocem-android",
+  "private": true,
+  "description": "Vocem Android shell — calling client for vocem.network",
+  "scripts": {
+    "brand": "node scripts/generate-brand-assets.mjs",
+    "sync": "cap sync android",
+    "open": "cap open android",
+    "add:android": "cap add android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/app": "^7.1.0",
+    "@capacitor/browser": "^7.0.2",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/splash-screen": "^7.0.2",
+    "@capacitor/status-bar": "^7.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "sharp": "^0.35.4",
+    "typescript": "^5.9.2"
+  }
+}
